@@ -1,0 +1,24 @@
+.footer-menu {
+  margin-right: $footer-menu-margin-negative-x;
+  margin-left: $footer-menu-margin-negative-x;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+
+  li {
+    padding-right: $footer-menu-padding-x;
+    padding-left: $footer-menu-padding-x;
+
+    a {
+      font-size: $footer-menu-fs;
+      color: $footer-menu-color;
+      text-transform: $footer-menu-text-transform;
+
+      &:hover {
+        color: $footer-menu-color-hover;
+      }
+    }
+  }
+}

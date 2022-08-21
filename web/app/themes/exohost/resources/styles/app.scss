@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/mixins";
+@import "common/functions";
+@import "common/variables";
+@import "common/theme";
+@import "bootstrap-api";
+
+// Then import Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Then import Bootstrap Icons
+@import "~bootstrap-icons/font/bootstrap-icons";
+
+@import "common/global";
+@import "sections/sections";
+@import "components/components";
+@import "utils/utils";
+
+

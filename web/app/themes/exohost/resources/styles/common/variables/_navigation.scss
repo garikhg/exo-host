@@ -1,0 +1,19 @@
+// Navigation Variables
+
+// scss-docs-start navigation-primary > menu-item-has-children
+$menu-item-has-children-arrow-width: rem-calc(12);
+$menu-item-has-children-arrow-height: $menu-item-has-children-arrow-width;
+$menu-item-has-children-arrow-bg: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>') 100% no-repeat;
+$menu-item-has-children-arrow-bg-position:center center;
+$menu-item-has-children-padding: $menu-item-has-children-arrow-width;
+// scss-docs-end navigation-primary > menu-item-has-children
+
+// scss-docs-start navigation-footer
+$footer-menu-color: $white !default;
+$footer-menu-color-hover: $gull-gray !default;
+$footer-menu-fs: rem-calc(14) !default;
+$footer-menu-text-transform: uppercase !default;
+$footer-menu-padding-x: rem-calc(16) !default;
+$footer-menu-margin-negative-x: - $footer-menu-padding-x !default;
+// scss-docs-end navigation-footer
+
