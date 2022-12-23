@@ -28,3 +28,6 @@ wp-cli.local.yml
 
 # Development
 .idea
+
+# Files
+local-phpinfo.php
