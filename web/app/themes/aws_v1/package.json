@@ -2,7 +2,7 @@
   "name": "sage",
   "private": true,
   "browserslist": [
-    "extends @wordpress/browserslist-config"
+    "extends @roots/browserslist-config/current"
   ],
   "engines": {
     "node": ">=16.0.0"
@@ -18,11 +18,8 @@
     "translate:mo": "wp i18n make-mo ./resources/lang ./resources/lang"
   },
   "devDependencies": {
-    "@popperjs/core": "^2.11.5",
-    "@roots/bud": "5.8.7",
-    "@roots/bud-sass": "^5.8.7",
-    "@roots/sage": "5.8.7",
-    "bootstrap": "5.2.0-beta1",
-    "bootstrap-icons": "^1.8.3"
+    "@roots/bud": "6.3.5",
+    "@roots/bud-tailwindcss": "6.3.5",
+    "@roots/sage": "6.3.5"
   }
 }
