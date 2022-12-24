@@ -16,7 +16,7 @@ add_filter('excerpt_more', function () {
 });
 
 add_filter('body_class', function ($classes) {
-    $classes[] = 'd-flex flex-column';
+    $classes[] = 'd-flex flex-column vh-100';
 
     return $classes;
 });
