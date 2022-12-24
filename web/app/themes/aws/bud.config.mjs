@@ -29,7 +29,7 @@ export default async (app) => {
     /**
      * Proxy origin (`WP_HOME`)
      */
-    .proxy("http://exo-host.local")
+    .proxy("https://miamibeauty.local")
 
     /**
      * Development origin
@@ -69,8 +69,5 @@ export default async (app) => {
           customFontSize: false,
         },
       })
-      .useTailwindColors()
-      .useTailwindFontFamily()
-      .useTailwindFontSize()
       .enable()
 };
