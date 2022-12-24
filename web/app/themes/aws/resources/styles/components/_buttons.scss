@@ -1,0 +1,23 @@
+.btn-default {
+  --#{$prefix}btn-font-family: #{$btn-font-family};
+  @include rfs($btn-font-size, --#{$prefix}btn-font-size);
+  --#{$prefix}btn-font-weight: #{$btn-font-weight};
+  --#{$prefix}btn-line-height: #{$btn-line-height};
+  --#{$prefix}btn-color: #{$body-color};
+
+  display: inline-block;
+  padding: 0;
+  font-family: $btn-font-family;
+  @include rfs($btn-font-size, --#{$prefix}btn-font-size);
+  font-weight: $btn-font-weight;
+  color: var(--#{$prefix}btn-color);
+  text-align: center;
+  text-decoration: none;
+  white-space: $btn-white-space;
+  cursor: if($enable-button-pointers, pointer, null);
+  user-select: none;
+  border: none;
+  border-radius: 0;
+  background: none;
+  @include transition($btn-transition);
+}
