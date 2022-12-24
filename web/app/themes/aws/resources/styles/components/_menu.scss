@@ -1,0 +1,21 @@
+.nav-primary {
+  ul.nav {
+    gap: rem-calc(16);
+
+    @include media-breakpoint-up(lg) {
+      gap: rem-calc(32);
+    }
+
+    li.menu-item {
+      a {
+        color: $gray-900;
+        text-decoration: none;
+        font-weight: 600;
+
+        &:hover {
+          color: $gray-700;
+        }
+      }
+    }
+  }
+}

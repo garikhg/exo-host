@@ -1,0 +1,8 @@
+.screen-reader-text,
+.sr-only {
+  @extend .visually-hidden;
+}
+
+.sr-only-focusable {
+  @extend .visually-hidden-focusable;
+}
